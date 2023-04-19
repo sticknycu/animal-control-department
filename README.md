@@ -16,12 +16,13 @@ You are tasked with developing a system for a city's Animal Control Department. 
 12. Implement a non-sealed class hierarchy for animal behaviors: Carnivore, Herbivore, Omnivore.
 13. Calculate food consumption for each animal type based on their behavior.
 14. Use Species class with Jackson ObjectMapper to map JSON data from the endangered species API.
-15. Fetch weather data from a weather API using HttpClient: API Example, HttpClient Guide.
+15. Fetch weather data from a weather API using HttpClient: [API Example](https://openweathermap.org/api)
 16. Analyze correlations between weather conditions and animal sightings.
 17. Use File and Files classes to create backups of animal sighting and incident data.
 18. Implement AnimalHandler abstract class with subclasses: MammalHandler, BirdHandler, and ReptileHandler.
 19. Create a simple command-line interface for staff interaction.
 
+*For txt and csv examples read txt-example and csv-example.*
 
 ## Exercises
 
