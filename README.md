@@ -7,7 +7,7 @@ You are tasked with developing a system for a city's Animal Control Department. 
 3. Use java.util.logging for logging various stages of operation: [Logging Guide](https://docs.oracle.com/javase/7/docs/technotes/guides/logging/overview.html).
 4. Read/write animal sightings data from sightings.txt and processed_sightings.txt using java.nio.Files and java.nio.Path.
 5. Use OpenCSV to read/write animal incident reports from incidents.csv and processed_incidents.csv: [OpenCSV Guide](https://opencsv.sourceforge.net/)
-6. Use HttpClient to fetch data from a REST API providing endangered species data: [HttpClient Guide](https://www.baeldung.com/java-9-http-client)
+6. Use HttpClient to fetch data from a REST API providing endangered species data: [API](https://apiv3.iucnredlist.org/api/v3/docs) [HttpClient Guide](https://www.baeldung.com/java-9-http-client)
 7. Deserialize JSON data into Java objects with Jackson ObjectMapper: [Jackson Guide](https://www.baeldung.com/jackson-object-mapper-tutorial)
 8. Write JUnit tests for classes (AnimalTest, AnimalControlSystemTest): [JUnit 5 Guide](https://junit.org/junit5/docs/current/user-guide/) si [aici](https://www.baeldung.com/junit-5)
 9. Create an AnimalSighting class with properties: location, date, and animal type.
