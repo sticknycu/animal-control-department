@@ -4,6 +4,7 @@ import com.opencsv.CSVReader;
 import com.opencsv.CSVWriter;
 import ro.pao.application.Menu;
 import ro.pao.gateways.Requests;
+import ro.pao.model.AgeExceptionTest;
 
 import java.io.File;
 import java.io.FileReader;
@@ -105,6 +106,8 @@ public class Main {
             }
 
             new Requests().saveRequestInfo();
+
+            new AgeExceptionTest().checkAge(17);
 
             if ("exit".equals(scanner.next())) {
                 break;

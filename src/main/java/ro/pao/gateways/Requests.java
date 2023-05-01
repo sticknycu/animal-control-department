@@ -23,19 +23,19 @@ public class Requests {
                     .GET()
                     .build();
 
-            HttpRequest httpRequestWeather = HttpRequest.newBuilder()
+            /*HttpRequest httpRequestWeather = HttpRequest.newBuilder()
                     .uri(new URI("https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={88ed1a0bfb257da872a21bcda58c24bc}"))
                     .GET()
-                    .build();
+                    .build();*/
 
             var httpResponseSpecies = httpClient.send(httpRequestSpecies, HttpResponse.BodyHandlers.ofString());
-            var httpResponseWeather = httpClient.send(httpRequestWeather, HttpResponse.BodyHandlers.ofString());
+            //var httpResponseWeather = httpClient.send(httpRequestWeather, HttpResponse.BodyHandlers.ofString());
 
             responseList.add(httpResponseSpecies.body());
-            responseList.add(httpResponseWeather.body());
+            //responseList.add(httpResponseWeather.body());
 
             System.out.println(httpResponseSpecies.body());
-            System.out.println(httpResponseWeather.body());
+            //System.out.println(httpResponseWeather.body());
 
         } catch (Exception e) {
             e.printStackTrace();
